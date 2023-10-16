@@ -1,0 +1,67 @@
+/* #external{
+    background-color: yellow;
+}
+.id{
+    background-color: brown;
+    color: white;
+} */
+
+
+/* syntax 
+1.selector 
+2. property
+3. value
+4. body */
+
+
+/* #external: selector 
+color: peroperty 
+white: value 
+{}: body css  */
+/* 
+element selector 
+p{
+    color: white;
+}
+
+id selector 
+#external{
+    color: white;
+}
+class selector 
+.id{
+    color: black;
+}
+universal selector 
+*{
+    background-color: yellow;
+}
+grouping selector 
+h1, p{
+    color: aqua;
+} */
+
+/* akfdjadslkfajdfjad */
+
+
+
+/* color:name, RGB, RGBA, HEX, HSL, HSLA */
+/* Red Green Blue */
+ 
+/* red: 0-255
+green:0-255
+blue: 0-255 */
+
+/* a: alpha 0.0 - 1.0*/
+
+/* 
+HSL: Hue deg:0-120 red, 120- 239 green, 240 blue ,
+Saturation % 0% shade gray, 100 full color ,
+Lightness % 0% black, 50% light or black, 100% white */
+
+p{
+    /* color:rgba(0, 0, 255, 0.8) ; */
+    /* hex color method */
+    /* color: hsl(22, 69%, 80%); */
+    /* color: hsla(22, 69%, 80%, 0.3); */
+}
