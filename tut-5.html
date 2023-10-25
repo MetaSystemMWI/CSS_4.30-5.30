@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .head{
+            background-color: red;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .topnav{
+            overflow: hidden;
+            background-color: black;
+        }
+        .topnav a{
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .topnav a:hover{
+            background-color: aqua;
+            color: black;
+        }
+        .colum{
+            float: left;
+            width: 30%;
+            padding: 10px;
+        }
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .footer{
+            background-color: red;
+            padding: 10px;
+            text-align: center;
+        }
+        @media screen and (max-width:600px) {
+            .colum{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="head">
+        <h1>Header</h1>
+    </div>
+    <!-- menu -->
+    <div class="topnav">
+        <a href="">Home</a>
+        <a href="">Contact</a>
+        <a href="">Gallary</a>
+        <a href="">About us</a>
+    </div>
+    <!-- main content -->
+    <div class="row">
+        <div class="colum">
+            <h1>Colum-1</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus illo ab totam non provident, cupiditate laudantium iure fugiat facere quam dolore eum aspernatur velit dolor quae nemo reprehenderit quod tempore. Odit laudantium sit sint, labore rerum aperiam blanditiis doloremque totam et, repellat, eius ullam voluptatibus culpa dolorem tenetur non explicabo?</p>
+        </div>
+        <div class="colum">
+            <h1>Colum-2</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus illo ab totam non provident, cupiditate laudantium iure fugiat facere quam dolore eum aspernatur velit dolor quae nemo reprehenderit quod tempore. Odit laudantium sit sint, labore rerum aperiam blanditiis doloremque totam et, repellat, eius ullam voluptatibus culpa dolorem tenetur non explicabo?</p>
+        </div>
+        <div class="colum">
+            <h1>Colum-3</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus illo ab totam non provident, cupiditate laudantium iure fugiat facere quam dolore eum aspernatur velit dolor quae nemo reprehenderit quod tempore. Odit laudantium sit sint, labore rerum aperiam blanditiis doloremque totam et, repellat, eius ullam voluptatibus culpa dolorem tenetur non explicabo?</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>footer</h1>
+    </div>
+</body>
+</html>
